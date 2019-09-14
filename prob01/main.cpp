@@ -26,7 +26,7 @@ int main()
   // longer alphabetic
 
   char my_char3 = 'z';
-  my_char3 = my_char3 + 1 ; // it overflow the char
+  my_char3 = my_char3 + 1 ; // becase we added 1 to z(in ascii z=122) which turn it to 123
   std::cout << "Char2: " << my_char3 << std::endl;
 
   std::cout << std::endl; // blank line to separate output from the different exercises
