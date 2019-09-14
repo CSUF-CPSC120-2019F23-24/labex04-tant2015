@@ -13,7 +13,7 @@ int main()
 
   // calcuation
 
-  sale_perdiction = TOTAL_SALE * PERCENT_INCREASE + total_sale ;
+  sale_perdiction = TOTAL_SALE * PERCENT_INCREASE + TOTAL_SALE ;
 
   // display the result
 
